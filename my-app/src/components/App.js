@@ -1,4 +1,3 @@
-import '../App.css';
 import Header from "./Header"
 import ThemeParkPage from "./ThemeParkPage"
 import { useEffect,useState} from 'react';
@@ -15,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Render</h1>
         <Header />
         <ThemeParkPage parks={parks}  />
       </header>

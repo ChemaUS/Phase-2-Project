@@ -5,9 +5,10 @@ import NavBar from "./NavBar"
 
 function Header(){
 return (
-         <>
-        <NavBar />
-        </>
+         <header>
+            <h1>Rate My Amusement Park</h1>
+         <NavBar />
+        </header>
     )
 }
 
