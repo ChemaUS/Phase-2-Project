@@ -9,7 +9,7 @@ function ThemeParkPage({parks, setParks}){
     const [search, setSearch] = useState("")
 
     const filteredPark = parks.filter(park =>{
-        return park.name.includes(search)
+        return park.name.toLowerCase().includes(search.toLowerCase())
     })
 
     const RenderParks=filteredPark.map(park=>{
