@@ -19,7 +19,7 @@ bring up the correct result even when lower case letters are used in the search 
 # Park Submit 
 Our project includes a form so visitors to the website can add an additional theme park.  Using POST functionality 
 within React, the information that the user enters will permanently adhere to the DOM once submitted.  Information we're 
-requesting is theme park name, photo, state, and a review.
+requesting is the theme park's name, photo, state, and a review.
 
 # Client Side Routing
 We have a navigation bar which allows users to navigate to different portions of our website.
